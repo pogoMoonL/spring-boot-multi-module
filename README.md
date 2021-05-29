@@ -59,3 +59,7 @@ https://bezkoder.com/spring-boot-jwt-authentication/
     https://dzone.com/articles/ddd-spring-boot-multi-module-maven-project
 
     https://github.com/purnima-jain/spring-boot-multi-module
+
+    https://github.com/callicoder/spring-boot-mysql-rest-api-tutorial
+ 
+    https://www.callicoder.com/spring-boot-rest-api-tutorial-with-mysql-jpa-hibernate/
