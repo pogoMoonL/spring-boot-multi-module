@@ -11,7 +11,7 @@
 
 	<groupId>com.purnima.jain</groupId>
 	<artifactId>spring-boot-multi-module</artifactId>
-	<version>0.0.1-SNAPSHOT</version>
+	<version>0.0.2-SNAPSHOT</version>
 
 	<packaging>pom</packaging>
 
@@ -30,8 +30,5 @@
 	<modules>
 		<module>application</module>
 		<module>controller</module>
-		<module>domain</module>
-		<module>service</module>
-		<module>repository</module>
 	</modules>
 </project>

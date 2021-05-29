@@ -7,21 +7,21 @@ import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RestController;
 
-import com.purnima.jain.customer.domain.aggregate.Customer;
-import com.purnima.jain.customer.domain.service.CustomerService;
+//import com.purnima.jain.customer.domain.aggregate.Customer;
+//import com.purnima.jain.customer.domain.service.CustomerService;
 
 @RestController
 public class CustomerController {
 
 	private static final Logger logger = LoggerFactory.getLogger(CustomerController.class);
 
-	@Autowired
-	private CustomerService customerService;
+//	@Autowired
+//	private CustomerService customerService;
 
 	@GetMapping("customer/{customerId}")
-	public Customer getCustomer(@PathVariable Integer customerId) {
+	public Integer getCustomer(@PathVariable Integer customerId) {
 		logger.info("Inside CustomerController........");
-		return customerService.getCustomerById(customerId);
+		return customerId;
 	}
 
 }
