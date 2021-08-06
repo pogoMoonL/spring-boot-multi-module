@@ -29,6 +29,6 @@
 
 	<modules>
 		<module>application</module>
-		<module>controller</module>
+		<!-- <module>controller</module> -->
 	</modules>
 </project>
