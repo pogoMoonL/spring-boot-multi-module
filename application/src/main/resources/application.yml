@@ -11,10 +11,16 @@
 #    hibernate:
 #      ddl-auto: update
 
-server:
-  port: 3000
+#server:
+ # port: 3000
 
+management:
+  endpoints:
+    web:
+      exposure:
+        include: "*"
 
+      base-path: /minitor
 multi:
   module:
    "1": com.purnima.jain.customer.ThisWillActuallyRun
