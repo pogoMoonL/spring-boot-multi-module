@@ -4,10 +4,12 @@ import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
-import org.springframework.boot.autoconfigure.domain.EntityScan;
+import org.springframework.context.annotation.ComponentScan;
 
-@EntityScan("com.purnima.jain.customer.model")
-@SpringBootApplication(scanBasePackages = "com.purnima.jain.customer")
+@ComponentScan(basePackages = { 
+		"${multi.module.1:NothingToScan1}",
+		})
+@SpringBootApplication
 public class CustomerApplication {
 
 	private static final Logger logger = LoggerFactory.getLogger(CustomerApplication.class);
